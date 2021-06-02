@@ -39,3 +39,16 @@ label[for="email"],
 label[for="password"] {
   display: none;
 }
+
+.divider {
+  display: none;
+}
+
+.create > p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+#createAccount {
+  margin: 0 0.5rem;
+}
