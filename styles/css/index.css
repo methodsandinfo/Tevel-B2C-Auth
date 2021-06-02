@@ -39,12 +39,18 @@ main > span {
   margin: 0;
 }
 
+.entry-item {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 label[for="email"],
 label[for="password"] {
   display: none;
 }
 
-input#email {
+input#email,
+input#password {
   width: 100%;
   border: 1px solid rgba(209, 213, 219, 1);
   border-radius: 0.125rem;
@@ -54,7 +60,8 @@ input#email {
   font-size: 100%;
 }
 
-input#email:focus {
+input#email:focus,
+input#password:focus {
   border-color: rgba(96, 165, 250, 1);
 }
 
