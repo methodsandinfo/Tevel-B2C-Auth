@@ -34,3 +34,8 @@ main > span {
   font-family: "Assistant";
   font-weight: 600;
 }
+
+label[for="email"],
+label[for="password"] {
+  display: none;
+}
