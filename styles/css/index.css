@@ -35,9 +35,27 @@ main > span {
   font-weight: 600;
 }
 
+.intro > h2 {
+  margin: 0;
+}
+
 label[for="email"],
 label[for="password"] {
   display: none;
+}
+
+input#email {
+  width: 100%;
+  border: 1px solid rgba(209, 213, 219, 1);
+  border-radius: 0.125rem;
+  padding: 0.25rem 0.5rem;
+}
+
+input#email:focus {
+  -webkit-box-shadow: 0 0 0 0 0px #fff,
+    0 0 0 0 calc(3px + 0px) rgba(59, 130, 246, 0.5), 0 0 #0000;
+  box-shadow: 0 0 0 0 0px #fff, 0 0 0 0 calc(3px + 0px) rgba(59, 130, 246, 0.5),
+    0 0 #0000;
 }
 
 .divider {
