@@ -65,6 +65,12 @@ input#password:focus {
   border-color: rgba(96, 165, 250, 1);
 }
 
+.error > p {
+  margin: 0.1rem;
+  color: red;
+  text-transform: lowercase;
+}
+
 .divider {
   display: none;
 }
