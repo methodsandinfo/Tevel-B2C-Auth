@@ -169,3 +169,7 @@ ul {
 .helpLink {
   align-self: flex-end;
 }
+
+a.helpLink:not([data-help]) {
+  display: none;
+}
