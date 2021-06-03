@@ -136,6 +136,23 @@ button[type="submit"]:active {
   margin: 0 0.5rem;
 }
 
+#cancel {
+  display: none;
+}
+
 ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+.attrEntry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.helpLink {
+  align-self: flex-end;
 }
