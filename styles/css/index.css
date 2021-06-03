@@ -95,8 +95,7 @@ a {
   margin: 1rem 0;
 }
 
-button[type="submit"] {
-  background: #3b82f6;
+button {
   color: #fff;
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -112,15 +111,29 @@ button[type="submit"] {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-
-button[type="submit"]:hover {
+button:hover {
   outline: none;
   cursor: pointer;
-  background: #60a5fa;
 }
 
+button[type="submit"] {
+  background: #3b82f6;
+}
+button[type="submit"]:hover {
+  background: #60a5fa;
+}
 button[type="submit"]:active {
   background: #2563eb;
+}
+
+button[type="button"] {
+  background: #4caf50;
+}
+button[type="button"]:hover {
+  background: #80e27e;
+}
+button[type="button"]:active {
+  background: #087f23;
 }
 
 .divider {
