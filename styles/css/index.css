@@ -1,7 +1,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background: rgba(96, 165, 250, 1);
+  background: #60a5fa;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +52,7 @@ label[for="password"] {
 
 input#email,
 input#password {
-  border: 1px solid rgba(209, 213, 219, 1);
+  border: 1px solid #d1d5db;
   border-radius: 0.125rem;
   padding: 0.25rem 0.5rem;
   outline: none;
@@ -62,13 +62,29 @@ input#password {
 
 input#email:focus,
 input#password:focus {
-  border-color: rgba(96, 165, 250, 1);
+  border-color: #60a5fa;
 }
 
 .error > p {
   margin: 0.1rem;
   color: red;
   text-transform: lowercase;
+}
+
+.buttons {
+  margin: 1rem 0;
+}
+
+button[type="submit"] {
+  background: #3b82f6;
+  color: #fff;
+  font-size: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.125rem;
+  padding: 0.125rem 0.625rem;
 }
 
 .divider {
