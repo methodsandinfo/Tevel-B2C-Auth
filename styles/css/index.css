@@ -34,6 +34,10 @@ main > span {
   margin: 1rem 0;
 }
 
+main > #api {
+  width: 100%;
+}
+
 .intro {
   text-align: center;
   font-size: 0.9rem;
