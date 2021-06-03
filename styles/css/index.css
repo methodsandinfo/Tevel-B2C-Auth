@@ -72,7 +72,8 @@ input {
   border-color: #60a5fa;
 }
 
-.error > p {
+.error {
+  order: 2;
   margin: 0.1rem;
   color: red;
   text-transform: lowercase;
@@ -186,6 +187,7 @@ ul {
 
 .helpLink {
   align-self: flex-end;
+  order: 3;
 }
 
 a.helpLink:not([data-help]) {
