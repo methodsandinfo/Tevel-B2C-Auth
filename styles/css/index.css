@@ -55,13 +55,11 @@ main > #api {
   margin-top: 1rem;
 }
 
-label[for="email"],
-label[for="password"] {
+label {
   display: none;
 }
 
-input#email,
-input#password {
+input {
   border: 1px solid #d1d5db;
   border-radius: 0.125rem;
   padding: 0.25rem 0.5rem;
@@ -70,8 +68,7 @@ input#password {
   font-size: 100%;
 }
 
-input#email:focus,
-input#password:focus {
+input {
   border-color: #60a5fa;
 }
 
@@ -137,4 +134,8 @@ button[type="submit"]:active {
 
 #createAccount {
   margin: 0 0.5rem;
+}
+
+ul {
+  list-style: none;
 }
