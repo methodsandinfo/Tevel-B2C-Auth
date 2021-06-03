@@ -136,6 +136,17 @@ button[type="button"]:active {
   background: #087f23;
 }
 
+button.sendNewCode {
+  margin-top: 0.5rem;
+  background: #bdbdbd;
+}
+button.sendNewCode:hover {
+  background: #efefef;
+}
+button.sendNewCode:active {
+  background: #8d8d8d;
+}
+
 .divider {
   display: none;
 }
@@ -151,6 +162,13 @@ button[type="button"]:active {
 
 #cancel {
   display: none;
+}
+
+#emailVerificationControl_success_message {
+  display: flex;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 
 ul {
