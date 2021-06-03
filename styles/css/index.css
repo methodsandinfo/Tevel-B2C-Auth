@@ -71,6 +71,19 @@ input#password:focus {
   text-transform: lowercase;
 }
 
+.password-label {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  text-transform: lowercase;
+  color: #3b82f6;
+}
+
 .buttons {
   margin: 1rem 0;
 }
@@ -87,6 +100,10 @@ button[type="submit"] {
   border-radius: 0.125rem;
   padding: 0.125rem 0.625rem;
   border: none;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, -webkit-box-shadow, transform, -webkit-transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 button[type="submit"]:hover {
