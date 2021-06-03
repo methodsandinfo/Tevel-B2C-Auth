@@ -45,6 +45,10 @@ main > #api {
   font-weight: 600;
 }
 
+.intro > p {
+  font-size: 1.2rem;
+}
+
 .intro > h2 {
   margin: 0;
 }
@@ -73,7 +77,7 @@ input {
 }
 
 #requiredFieldMissing {
-  display: none;
+  display: none !important;
 }
 
 .error {
