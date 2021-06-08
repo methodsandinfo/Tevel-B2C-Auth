@@ -238,7 +238,7 @@ a.helpLink:not([data-help]) {
 }
 
 #codeVerification {
-  display: flex !important;
+  display: flex;
   flex-direction: column;
 }
 
