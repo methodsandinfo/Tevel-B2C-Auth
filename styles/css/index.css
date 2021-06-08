@@ -63,7 +63,8 @@ label {
   display: none;
 }
 
-input {
+input,
+select {
   border: 1px solid #d1d5db;
   border-radius: 0.125rem;
   padding: 0.25rem 0.5rem;
@@ -72,7 +73,8 @@ input {
   font-size: 100%;
 }
 
-input {
+input,
+select {
   border-color: #60a5fa;
 }
 
@@ -104,8 +106,7 @@ a {
   margin: 1rem 0;
 }
 
-button,
-select {
+button {
   color: #fff;
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -121,8 +122,7 @@ select {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-button:hover,
-select:hover {
+button:hover {
   outline: none;
   cursor: pointer;
 }
