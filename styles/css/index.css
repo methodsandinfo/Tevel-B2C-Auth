@@ -89,6 +89,10 @@ select {
   text-transform: lowercase;
 }
 
+.error > p {
+  margin: 0;
+}
+
 .password-label {
   display: flex;
   justify-content: flex-end;
@@ -210,9 +214,11 @@ a.helpLink:not([data-help]) {
 .code {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
 }
 
 .number {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
 }
