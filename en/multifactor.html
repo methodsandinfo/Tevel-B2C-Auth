@@ -20,14 +20,8 @@
       type="text/css"
       data-preload="true"
     />
-    <script>
-      let codeVerification = document.getElementById("codeVerification");
-      if (codeVerification.style.display === "block") {
-        codeVerification.style.display = "flex";
-      }
-    </script>
   </head>
-  <body>
+  <body onload="start()">
     <main>
       <span>
         <img
@@ -39,5 +33,13 @@
       </span>
       <div id="api"></div>
     </main>
+    <script>
+      function start() {
+        let codeVerification = document.getElementById("codeVerification");
+        if (codeVerification.style.display === "block") {
+          codeVerification.style.display = "flex";
+        }
+      }
+    </script>
   </body>
 </html>
