@@ -237,8 +237,8 @@ a.helpLink:not([data-help]) {
   font-weight: bold;
 }
 
-#codeVerification {
-  display: flex;
+#codeVerification[aria-hidden="false"] {
+  display: flex !important;
   flex-direction: column;
 }
 
