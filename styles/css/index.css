@@ -135,7 +135,7 @@ button:hover {
   cursor: pointer;
 }
 
-button:disabled {
+button[aria-disabled="true"] {
   cursor: not-allowed !important;
   background: #8d8d8d !important;
 }
