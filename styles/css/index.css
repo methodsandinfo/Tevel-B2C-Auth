@@ -135,6 +135,11 @@ button:hover {
   cursor: pointer;
 }
 
+button:disabled {
+  cursor: not-allowed !important;
+  background: #8d8d8d !important;
+}
+
 button[type="submit"],
 button#sendCode {
   background: #3b82f6;
